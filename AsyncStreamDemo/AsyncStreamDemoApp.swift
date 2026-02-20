@@ -12,6 +12,7 @@ struct AsyncStreamDemoApp: App {
 
     var body: some Scene {
         WindowGroup {
+            AppLifecycleDetailView()
         }
     }
 }
